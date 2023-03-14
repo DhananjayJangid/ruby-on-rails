@@ -96,3 +96,25 @@ irb(main):039:0> a.swapcase
 => "aNkUsH"
 irb(main):042:0> a.tr('An','kr')
 => "krKuSh"
+irb(main):047:0> "hello world".prepend('hii')
+=> "hiihello world"
+irb(main):048:0> "hello world".prepend(' hii ')
+=> " hii hello world"
+irb(main):051:0> a="heeelllllo"
+=> "heeelllllo"
+irb(main):052:0> a.squeeze
+=> "helo"
+irb(main):053:0> a.chr
+=> "h"
+irb(main):060:0> a="10110"
+=> "10110"
+irb(main):061:0> a.hex
+=> 65808
+irb(main):062:0> a.oct
+=> 4168
+irb(main):063:0> a.ord
+=> 49
+irb(main):064:0> a.to_i
+=> 10110
+irb(main):065:0> a.to_f
+=> 10110.0
