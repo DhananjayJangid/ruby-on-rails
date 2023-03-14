@@ -78,3 +78,21 @@ irb(main):086:0> "ankush".rindex('k')
 => 2
 irb(main):087:0> "ankush".rindex('i')
 => nil
+irb(main):028:0> a="hi how are you"
+=> "hi how are you"
+irb(main):029:0> a.clear
+=> ""
+irb(main):030:0> a
+=> ""
+irb(main):033:0> a="hello world"
+=> "hello world"
+irb(main):034:0> a.split
+=> ["hello", "world"]
+irb(main):037:0> a.squeeze
+=> "helo world"
+irb(main):038:0> a="AnKuSh"
+=> "AnKuSh"
+irb(main):039:0> a.swapcase
+=> "aNkUsH"
+irb(main):042:0> a.tr('An','kr')
+=> "krKuSh"
